@@ -1,0 +1,24 @@
+// Coloque su configuración en este archivo para sobrescribir la configuración predeterminada.
+{
+    "files.associations": {
+        ".Brewfile": "ruby"
+    },
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 12,
+    "editor.roundedSelection": false,
+    "editor.wordWrap": true,
+    "editor.rulers": [
+        70,
+        100
+    ],
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": false,
+    "workbench.welcome.enabled": false, // sorry Microsoft
+    "window.openFilesInNewWindow": "on",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "explorer.openEditors.visible": 0,
+    "extensions.autoUpdate": true,
+    "terminal.external.osxExec": "iTerm.app"
+}

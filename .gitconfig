@@ -1,0 +1,10 @@
+[user]
+    name = Francisco Cortés
+    email = franklyn.bdn@gmail.com
+[push]
+    default = simple
+[alias]
+    # Get the last branches when someone committed
+    last-branches = for-each-ref --count=5 --sort=-committerdate refs/heads/ --format='%(refname:short)'
+[color]
+    ui = true
