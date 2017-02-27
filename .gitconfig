@@ -1,6 +1,8 @@
 [user]
     name = Francisco Cortés
     email = franklyn.bdn@gmail.com
+[github]
+    user = frankcortes
 [push]
     default = simple
 [alias]
