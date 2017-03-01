@@ -10,8 +10,9 @@ Yep! This is my own dotfiles collection. In contrast to other extremely-detailed
 ## TO DO List
 
 + Scripts MacOS based (like [this](https://github.com/paulmillr/dotfiles/blob/master/etc/osx.sh))
-+ keyboard layout config and shortcut to change between them.
++ Keyboard layout config and shortcut to change between them.
 + .npmrc, .yarnrc
++ Watch [settings sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) in visual studio code
 + etc/hosts file
 + oh-my-zsh bootstrap & config
 + Add my own custom alias and a init script to set the vscode config where it should be located, for instance.
