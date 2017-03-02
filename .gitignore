@@ -8,6 +8,7 @@
 # OS or Editor folders
 .DS_Store
 .cache
+*.swp
 
 # Folders to ignore
 .hg
