@@ -6,10 +6,21 @@ Yep! This is my own dotfiles collection. In contrast to other extremely-detailed
 + .Brewfile, install initial things
 + .gitconfig
 + .vscode (Visual Code)
++ Some initial scripts to bootstrap the configuration
+
+## Scripts
+
+This folder contains all the scripts which are needed to use my personal configuration.
+
+### setup folder
+
+This folder will be executed when [Strap](https://github.com/MikeMcQuaid/strap) will be executed.
++ **files.sh**: generate symbolic links for the home repository.
++ **folders.sh**: create extra folders that I use.
++ **xos.sh**: add extra custom config for my XOS. Maybe, at some point, I will have to do something similar for a linux system.
 
 ## TO DO List
 
-+ Scripts MacOS based (like [this](https://github.com/paulmillr/dotfiles/blob/master/etc/osx.sh))
 + Keyboard layout config and shortcut to change between them.
 + .npmrc, .yarnrc
 + Watch [settings sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) in visual studio code
