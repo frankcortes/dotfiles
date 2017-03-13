@@ -14,9 +14,10 @@ This folder contains all the scripts which are needed to use my personal configu
 
 ### setup folder
 
-This folder will be executed when [Strap](https://github.com/MikeMcQuaid/strap) will be executed.
+This folder will be executed when [Strap](https://github.com/MikeMcQuaid/strap) will be executed. You can execute it manually. They all are [idempotent](https://en.wikipedia.org/wiki/Idempotence) scripts.
 + **files.sh**: generate symbolic links for the home repository.
 + **folders.sh**: create extra folders that I use.
++ **hosts.sh**: generate and set hosts file, with a blacklist of malware/adware websites.
 + **xos.sh**: add extra custom config for my XOS. Maybe, at some point, I will have to do something similar for a linux system.
 
 ## TO DO List
@@ -24,7 +25,6 @@ This folder will be executed when [Strap](https://github.com/MikeMcQuaid/strap) 
 + Keyboard layout config and shortcut to change between them.
 + .npmrc, .yarnrc
 + Watch [settings sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) in visual studio code
-+ etc/hosts file
 + oh-my-zsh bootstrap & config
 + Add my own custom alias and a init script to set the vscode config where it should be located, for instance.
 + Create two profiles, one for work and another one for my personal computer.
