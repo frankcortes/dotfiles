@@ -8,5 +8,12 @@
 [alias]
     # Get the last branches when someone committed
     last-branches = for-each-ref --count=5 --sort=-committerdate refs/heads/ --format='%(refname:short)'
+    # Initialize a repo and add first commit
+    this = !git init && git add . && git commit -m \"initial commit\"
+    # Lists all ignored files in this project
+    ignored-files = !git ls-files --other --ignored --exclude-standard
 [color]
     ui = true
+[instaweb]
+    # This opens a git server in http://127.0.0.1:1234/ with "git instaweb"
+    httpd = webrick

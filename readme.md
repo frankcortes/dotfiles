@@ -14,7 +14,7 @@ This folder contains all the scripts which are needed to use my personal configu
 
 ### setup folder
 
-This folder will be executed when [Strap](https://github.com/MikeMcQuaid/strap) will be executed. You can execute it manually. They all are [idempotent](https://en.wikipedia.org/wiki/Idempotence) scripts.
+These scripts will be executed after [Strap](https://github.com/MikeMcQuaid/strap) does. They all are [idempotent](https://en.wikipedia.org/wiki/Idempotence) scripts, and can be executed at the same time.
 + **files.sh**: generate symbolic links for the home repository.
 + **folders.sh**: create extra folders that I use.
 + **hosts.sh**: generate and set hosts file, with a blacklist of malware/adware websites.
