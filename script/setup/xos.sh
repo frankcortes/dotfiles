@@ -14,11 +14,11 @@ if [[ OSX ]]; then
   # Set language and text formats
   # Note: if you’re in the US, you may replace `EUR` with `USD`, `Centimeters`
   # with `Inches`, `en_GB` with `en_US`, and `true` with `false`.
-  defaults write NSGlobalDomain AppleLanguages -array "es"
-  defaults write NSGlobalDomain AppleLocale -string "es_ES@currency=EUR"
+  defaults write NSGlobalDomain AppleLanguages -array "en"
+  defaults write NSGlobalDomain AppleLocale -string "en_US@currency=EUR"
   defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
   defaults write NSGlobalDomain AppleMetricUnits -bool true
-  echo "Spanish i18n [DONE]"
+  echo "English i18n with metrical system [DONE]"
 
   # Save screenshots to ~/screenshots
   defaults write com.apple.screencapture location -string "${HOME}/screenshots"
