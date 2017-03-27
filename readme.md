@@ -3,6 +3,7 @@
 Yep! This is my own dotfiles collection. In contrast to other extremely-detailed dotfiles collections like [this](https://github.com/mathiasbynens/dotfiles) and [this](https://github.com/paulmillr/dotfiles), this repo is an attempt to define the minimal configuration that I need in my computer to be comfortable. For now:
 
 + .vimrc
++ .yarnrc
 + .Brewfile, install initial things
 + .gitconfig
 + .vscode (Visual Code)
@@ -23,7 +24,7 @@ These scripts will be executed after [Strap](https://github.com/MikeMcQuaid/stra
 ## TO DO List
 
 + Keyboard layout config and shortcut to change between them.
-+ .npmrc, .yarnrc
++ .npmrc, ~.yarnrc~
 + Watch [settings sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) in visual studio code
 + oh-my-zsh bootstrap & config
 + Add my own custom alias and a init script to set the vscode config where it should be located, for instance.
