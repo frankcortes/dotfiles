@@ -21,6 +21,7 @@ brew 'ruby'
 brew 'nginx'
 brew 'dnsmasq'
 brew 'watch'
+brew 'webp'
 brew 'mas' # install apps from Mac App Store
 cask 'keepingyouawake' # caffeine clone more updated
 
